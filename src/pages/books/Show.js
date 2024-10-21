@@ -1,8 +1,8 @@
+import { useParams } from "react-router-dom";
+
 const Show = () => {
-    return(
-    <h1>hello</h1>
-    );
-    
-    };
-    
-    export default Show;   
+  let { id } = useParams();
+  return <h1>Hello from books / show page youre looking at book with id: {id}</h1>;
+};
+
+export default Show;

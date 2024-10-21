@@ -6,8 +6,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 import RedirectExample from "./pages/RedirectExample";
-import BooksIndex from ".pages/books/Index";
-import BooksShow from ".pages/books/Show";
+import BooksIndex from "./pages/books/Index";
+import BooksShow from "./pages/books/Show";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -22,7 +22,8 @@ const App = () => {
                 <Route path={"/about"} element={<About />} />
                 <Route path={"/contact"} element={<Contact />} />
                 <Route path={"/redirect-example"} element={<RedirectExample />} />
-                <Route path={"/books"} element={<Index />} />
+                <Route path={"/books"} element={<BooksIndex />} />
+                <Route path={"/books/:id"} element={<BooksShow />} />
 
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
