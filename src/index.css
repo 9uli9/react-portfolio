@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Lacquer';
+    src: url('/src/fonts/Lacquer-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Tailwind directives */
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+
+  .slick-prev:before,
+.slick-next:before {
+  color: green !important;
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: green !important;
+  opacity: 0.75;
+}
+
+.slick-dots li button:hover:before {
+  opacity: 1;
+}

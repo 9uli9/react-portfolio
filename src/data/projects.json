@@ -1,0 +1,197 @@
+[
+    {
+        "slug": "react-countries",
+        "title": "Country Cuisine",
+        "description": "This project marks my first official React application, showcasing my ability to integrate and utilize data from multiple APIs. The application allows users to explore detailed information about countries worldwide, including their population, capital, region, languages, and currency. A navigation bar enhances the experience by enabling users to browse countries by continent, providing an intuitive way to explore specific regions. Additionally, the application features a unique culinary exploration tool, allowing users to discover traditional dishes from various countries and access detailed recipes. This blend of functionality creates an engaging platform that combines geographical knowledge with cultural and culinary insights.",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Bootstrap CSS", "Axios", "API's"],
+        "images": [
+            {
+                "caption": "Main Page",
+                "url": " /images/rest-countries1.png"
+            },
+            {
+                "caption": "Country Page",
+                "url": " /images/rest-countries2.png"
+            },
+            {
+                "caption": "Dish Page",
+                "url": " /images/rest-countries4.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://julia-szew-rest-countries.web.app/"
+
+            }
+        ],
+        "date": "2024",
+        "gitHub": "https://github.com/9uli9/rest-countries"
+   
+    
+    },
+    {
+        "slug": "greenville",
+        "title": "Greenville Deli Re-design",
+        "description": "This was my first application created with a framework. We had the task to re-imagine and re-create a website for a local deli. Our goal was to refresh the website's design, enhance functionality, and ensure it was responsive across all devices. I used HTML5 for structure, CSS for styling, and Bootstrap to speed up development and create a responsive layout. SASS was also implemented to improve the organization and maintainability of the styles. ",
+        "categories": ["Front-End Development"],
+        "technologies": ["HTML5", "CSS", "Bootstrap CSS", "SASS"],
+        "images": [
+            {
+                "caption": "Welcome Banner",
+                "url": " /images/greenville1.png"
+            },
+            {
+                "caption": "Breakfast Options",
+                "url": " /images/greenville2.png"
+            },
+            {
+                "caption": "Item Page",
+                "url": " /images/greenville3.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Live Website",
+                "url": "https://famous-dolphin-30984f.netlify.app/"
+
+            }
+        ],
+        "date": "2024",
+        "gitHub": "https://github.com/9uli9/greenvilledeli1"
+     
+    
+    },
+    {
+        "slug": "multicareclinic",
+        "title": "MultiCareClinic",
+        "description": "MultiCareClinic is a fully responsive React application designed to simulate a clinic's administrative interface. The app connects to two APIs to dynamically manage doctors, patients, appointments, diagnoses, and prescriptions. Built from a receptionist's point of view, it allows clinic admin users to sign up, log in, and manage the clinic's operations seamlessly.",
+        "categories": ["Front-End Development"],
+        "technologies": ["React.js", "Tailwind CSS", "Axios", "REST APIs", "Authentication"],
+        "images": [
+          {
+            "caption": "User Log-In View",
+            "url": "/images/multicare1.png"
+          },
+          {
+            "caption": "Viewing a Single Doctor",
+            "url": "/images/multicare2.png"
+          },
+          {
+            "caption": "Appointment Index",
+            "url": "/images/multicare3.png"
+          }
+        ],
+        "links": [
+          {
+            "title": "Live Demo",
+            "url": "https://react-doctors-977f4.web.app/guest"
+          }
+         
+        ],
+        "date": "2024",
+        "gitHub": "https://github.com/9uli9/react_doctors"
+      },
+      
+    {
+        "slug": "thejacks",
+        "title": "The Jacks",
+        "description": "This was full-stack-develeopment project. I used PHP an dthe Laravel framework to create an application the public need.",
+        "categories": ["Front-End Development", "Back-End Development"],
+        "technologies": ["PHP", "Laravel", "Google Maps", "Bootstrap CSS"],
+        "images": [
+           
+            {
+                "caption": "Welcome Banner",
+                "url": " /images/jacks1.png"
+            },
+            {
+                "caption": "Recently Added",
+                "url": " /images/jacks2.png"
+            },
+            {
+                "caption": "Logo",
+                "url": " /images/thejacks.png"
+            }
+
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": ""
+
+            }
+        ],
+        "date": "2023",
+        "gitHub": "https://github.com/9uli9/toilet_app"
+       
+    
+    },
+    {
+        "slug": "movie-rental-api",
+        "title": "Movie Rental API",
+        "description": "This is the first API I created, designed for a movie rental system using PHP and the Laravel framework. I used Laravel Sanctum for secure API authentication and integrated Mailtrap with Laravel's Mailable class for email functionality. The API manages movies, directors, customers, users, and rentals, providing a complete system for key operations. This project enhanced my skills in RESTful API design, authentication, email integration, and database management.",
+        "categories": ["Back-End Development"],
+        "technologies": ["PHP", "Laravel", "SQLite", "MailTrap", "Insomnia", "Swagger"],
+        "images": [
+            {
+                "caption": "API Documentation created on Swagger",
+                "url": " /images/movie-rental-api.png"
+            },
+            {
+                "caption": "Using mailtrap to catch emails sent to customers.",
+                "url": " /images/extravision2.png"
+            },
+            {
+                "caption": "SendING JSON request to rent a movie on behalf of a customer.",
+                "url": " /images/extravision4.png"
+            }
+        
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://app.swaggerhub.com/apis-docs/n00220743/extravision-movie-rental-api/1.0.0#/"
+
+            }
+        ],
+        "date": "2023",
+        "gitHub": "https://github.com/9uli9/secure-rest-api"
+       
+    
+    },
+    {
+        "slug": "covid-combatant",
+        "title": "Covid Combatant",
+        "description": "This is the first game I have ever made. This game was created in p5.js. It is based on a covid-19 particle system. The player is timed, the longer they survive the more virus particles appear. The medication increases health and the large obsticles end the game.",
+        "categories": ["Game Development"],
+        "technologies": ["p5.js", "HTML5", "CSS"],
+        "images": [
+            {
+                "caption": "Main Gameplay",
+                "url": " /images/covid-combatant1.png"
+            },
+            {
+                "caption": "Game-Over Screen",
+                "url": " /images/covid-combatant2.png"
+            },
+            {
+                "caption": "Player Code Snippet",
+                "url": " /images/covid-combatant3.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Live Project",
+                "url": "https://jade-stardust-fab13f.netlify.app/"
+
+            }
+        ],
+        "date": "2023",
+        "gitHub": "https://github.com/9uli9/covid-combatant"
+       
+    
+    }
+
+]
